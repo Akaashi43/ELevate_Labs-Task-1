@@ -1,0 +1,34 @@
+
+# Nmap 7.95 scan initiated Mon May 26 06:14:13 2025 as: /usr/lib/nmap/nmap -sS -oN scan.txt 192.168.156.0/24
+Nmap scan report for 192.168.156.197
+Host is up (0.0062s latency).
+Not shown: 999 closed tcp ports (reset)
+PORT   STATE SERVICE
+53/tcp open  domain
+MAC Address: 8A:8A:10:F9:32:28 (Unknown)
+
+
+Nmap scan report for 192.168.156.210
+Host is up (0.00068s latency).
+Not shown: 997 filtered tcp ports (no-response)
+PORT    STATE SERVICE
+135/tcp open  msrpc
+139/tcp open  netbios-ssn
+445/tcp open  microsoft-ds
+MAC Address: 50:2F:9B:A2:F6:20 (Intel Corporate)
+
+Nmap scan report for 192.168.156.180
+Host is up (0.000010s latency).
+All 1000 scanned ports on 192.168.156.180 are in ignored states.
+Not shown: 1000 closed tcp ports (reset)
+
+# Nmap done at Mon May 26 06:14:26 2025 -- 256 IP addresses (3 hosts up) scanned in 12.85 seconds
+
+
+
+-> Connect Kali with my Mobile's Hotspot
+-> This is the Scan result and as in my result the common port is tcp and after that i Research the common ports and i found that 
+common ports - 22, 80, 443, 21
+services - SSH, HTTP, HTTPS, FTP
+Risks - Brute Force attack, unencrypted data in backend, unpatched service, 
+
